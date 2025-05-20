@@ -1,0 +1,92 @@
+/* General App Layout */
+.app {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Note Form Styles */
+.note-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.note-form input,
+.note-form textarea {
+  padding: 10px 12px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+.note-form textarea {
+  min-height: 100px;
+}
+
+.note-form button {
+  width: 140px;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.note-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Notes Display Section */
+.notes-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* Each Note Card */
+.note-card {
+  background-color: #f4f4f4;
+  padding: 15px 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.note-card h3 {
+  margin: 0 0 10px;
+  color: #222;
+}
+
+.note-card p {
+  color: #444;
+}
+
+/* Flashcards Section */
+.flashcards {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.flashcard {
+  background-color: #fff;
+  border: 1px dashed #aaa;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
